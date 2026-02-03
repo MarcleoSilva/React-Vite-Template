@@ -1,0 +1,12 @@
+/* Fonts */
+
+@import "tailwindcss";
+@layer theme, base, components, utilities, theme;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* colors and global parameters for tailwind*/
+:root {
+
+}
